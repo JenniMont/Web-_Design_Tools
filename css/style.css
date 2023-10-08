@@ -161,3 +161,94 @@ dd {
   color: #26004d;
   ;
 }
+
+/*---------------Index Table---------------------*/
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 25px auto;
+
+}
+
+table caption {
+  font-weight: 300;
+  font-size: 140%;
+  color: #26004d;
+  margin-bottom: 10px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px;
+}
+
+th {
+  background-color: #9e6cf9;
+  color: #fff;
+}
+
+tr {
+  border-bottom: solid solid #6e36a6;
+  background-color: #e8e1f5;
+  color: #403e3e;
+}
+
+
+tbody tr:nth-child(even) {
+  background-color: #d4c7ed;
+}
+
+tbody tr:hover {
+  background-color: #be97fb;
+}
+
+/*---------------Contact Us---------------------*/
+
+fieldset {
+  border: 2px solid #d7c8f3;
+  max-width: 70%;
+  margin: 25px auto;
+}
+
+
+fieldset legend {
+  font-size: 100%;
+  padding: 5px;
+}
+
+fieldset h3 {
+  text-align: left;
+}
+
+fieldset label {
+  margin: 10px 10px;
+}
+
+input,
+textarea {
+  border: 2px solid #26004d;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin: 4px 0;
+}
+
+
+.button {
+  background-color: #6e36a6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 80%;
+  font-weight: 400;
+  margin: 10px 10px;
+}
+
+input radio {
+  color: #26004d;
+}
+
+.button:hover {
+  background-color: #8351b5;
+  color: white;
+}
