@@ -69,53 +69,34 @@ header {
 
 header h1 {
 
-  text-align: center;
+  text-align: left;
   word-spacing: 8px;
   letter-spacing: 4px;
   padding-top: 10px;
+  padding-left: 15px;
+  ;
 }
 
 header img {
-  border: 3px solid rgba(74, 32, 86, 0.376);
-  box-shadow: 0 0 2px 1px #b8b3e9;
-  width: 100%;
+
+  height: 96px;
+  float: right;
+  position: absolute;
+  right: -10px;
+  top: 5;
+  top: 0;
+  margin-right: 30px;
+  z-index: 5;
+  width: auto;
+  max-width: 15vw;
   height: auto;
-  margin-left: auto;
-
-}
-
-/*---------------Navigation bar---------------------*/
-.navbar {
-  margin: auto;
-  padding: 20px 0;
-  text-align: center;
-  font-weight: 400;
-  font-size: 140%;
-  color: #26004d;
-  background-color: #d7c8f3;
-  border-bottom: 3px solid rgba(74, 32, 86, 0.376);
-}
-
-.navbar a:link {
-  color: #26004d;
-  text-decoration: none;
-  padding-bottom: 1px;
-  border-bottom: 1px solid #26004d;
-}
-
-.navbar a:hover {
-  color: #26004d;
-  font-size: 120%;
-  border-bottom: 2px solid transparent;
-}
-
-.navbar a:visited {
-  color: #26004d;
+  display: block;
+  clear: both;
 }
 
 /*---------------Sections---------------------*/
 .sections {
-  background-color: #fcfaff;
+  background-color: #f2e7f7;
   margin: 40px;
 }
 
@@ -154,7 +135,8 @@ dd {
 .footer a:hover {
   font-size: 120%;
   text-decoration: none;
-  border-bottom: 2px solid
+  border-bottom: 2px solid;
+  color: #5fcdde;
 }
 
 .footer a:visited {
@@ -205,6 +187,11 @@ tbody tr:hover {
 
 /*---------------Contact Us---------------------*/
 
+.centerText {
+  text-align: center;
+}
+
+
 fieldset {
   border: 2px solid #d7c8f3;
   max-width: 70%;
@@ -251,4 +238,35 @@ input radio {
 .button:hover {
   background-color: #8351b5;
   color: white;
+}
+
+/*---------------FAQs page---------------------*/
+section li a {
+  font-size: 100%;
+  font-weight: 200;
+  color: #26004d;
+  text-decoration: none;
+
+}
+
+section li a:hover {
+  font-size: 120%;
+  text-decoration: none;
+  color: #3ed1e7;
+  border-bottom: 2px solid
+}
+
+/*---------------Gallery page---------------------*/
+figure a .gallery {
+  width: 200px;
+  height: 200px;
+  border: 3px solid rgba(74, 32, 86, 0.376);
+  box-shadow: 0 0 2px 1px #b8b3e9;
+  margin: auto;
+}
+
+figure figcaption {
+  margin-top: 20px;
+  clear: both;
+  color: #2E6C85;
 }

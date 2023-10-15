@@ -1,0 +1,48 @@
+article {
+  background: #f2e7f7;
+  box-sizing: border-box;
+  clear: both;
+  display: table;
+  border: 2px dashed #663e77;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 900px;
+  min-width: 100px;
+  margin: 20px auto;
+}
+
+article h3 {
+  color: black;
+  font-weight: bold;
+  margin: 0;
+  background-color: #80e5f4;
+  border-radius: 7px 7px 0 0;
+}
+
+figure {
+  float: left;
+  width: 35vw;
+  margin: 2vh 0;
+}
+
+figcaption {
+  text-align: center;
+  margin-top: 20px;
+  clear: both;
+  color: #2E6C85;
+}
+
+figure img {
+  display: block;
+  border: 3px solid rgba(74, 32, 86, 0.376);
+  box-shadow: 0 0 2px 1px #b8b3e9;
+  margin: auto;
+  clear: both;
+}
+
+figure>p {
+  margin: 0;
+  float: left;
+  padding: 20px;
+  border: 20px solid #000000;
+}
