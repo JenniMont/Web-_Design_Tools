@@ -170,6 +170,7 @@ th {
   color: #fff;
 }
 
+/* 
 tr {
   border-bottom: solid solid #6e36a6;
   background-color: #e8e1f5;
@@ -179,7 +180,7 @@ tr {
 
 tbody tr:nth-child(even) {
   background-color: #d4c7ed;
-}
+} */
 
 tbody tr:hover {
   background-color: #be97fb;
@@ -194,8 +195,7 @@ tbody tr:hover {
 
 fieldset {
   border: 2px solid #d7c8f3;
-  max-width: 70%;
-  margin: 25px auto;
+
 }
 
 
@@ -220,6 +220,9 @@ textarea {
   margin: 4px 0;
 }
 
+textarea {
+  width: 100%;
+}
 
 .button {
   background-color: #6e36a6;
@@ -241,6 +244,7 @@ input radio {
 }
 
 /*---------------FAQs page---------------------*/
+
 section li a {
   font-size: 100%;
   font-weight: 200;
@@ -250,10 +254,19 @@ section li a {
 }
 
 section li a:hover {
-  font-size: 120%;
   text-decoration: none;
-  color: #3ed1e7;
+  color: #ce25e4;
   border-bottom: 2px solid
+}
+
+.cardPhoto {
+  width: 100%
+}
+
+.cardFaq {
+  text-align: center;
+  width: 50%;
+  margin: 25px auto;
 }
 
 /*---------------Gallery page---------------------*/

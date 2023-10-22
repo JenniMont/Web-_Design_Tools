@@ -5,9 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
   <link rel="stylesheet" type="text/css" href="./css/nav-menu.css">
+
   <title>Contact Us</title>
 
   <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
@@ -40,71 +42,74 @@
 
   <!-- Navigation Bar-->
   <nav class="topnav">
-    <a class="active" href="index.html">Home</a>
+    <a class="active" href="index.html"><i class="glyphicon glyphicon-home"></i>Home</a>
     <a href="faq.html">FAQs</a>
     <a href="gallery.html">Gallery</a>
     <a href="contact-us.html">Contact us</a>
   </nav>
 
   <section class="form-section">
-
     <h2>Contact us</h2>
     <p class="centerText">Email us with any question or inquiere. We would be happy to answer your questions.</p>
 
-    <fieldset>
-      <legend>Get in Touch </legend>
-      <h3>Personal information</h3>
-      <form id="myMailerForm" action="mailto:jemont88@gmail.com" method="post">
-        <p>
-          <label for="name"> Name </label>
-          <input type="text" name="name" id="name" placeholder="your name">
-        </p>
+    <h3 class=" w3-indigo">Personal information</h3>
+    <form class="w3-container w3-card-4" id="myMailerForm" action="mailto:jemont88@gmail.com" method="post">
+      <p>
+        <label class="w3-text-deep-purple" for="name"> Name </label>
+        <input class="w3-input w3-border" type="text" name="name" id="name" placeholder="your name">
+      </p>
 
-        <p>
-          <label for="email">E-mail</label>
-          <input type="text" name="email" id="email" placeholder="your email" required>
-        </p>
+      <p>
+        <label class="w3-text-deep-purple" for="email">E-mail</label>
+        <input class="w3-input w3-border" type="text" name="email" id="email" placeholder="your email" required>
+      </p>
 
-        <p>
-          <label for="phone">Phone Number</label>
-          <input type="tel" name="phone" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-            autofocus required>
-        </p>
+      <p>
+        <label class="w3-text-deep-purple" for="phone">Phone Number</label>
+        <input class="w3-input w3-border" type="tel" name="phone" id="phone" placeholder="123-456-7890"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" autofocus required>
+      </p>
 
-        <p>
-          <label for="news"> Newsletter?</label>
-          <input type="checkbox" name="news" id="news" checked> Yes, please.
-        </p>
+      <p>
+        <label class="w3-text-deep-purple" for="news"> Newsletter?</label>
+        <input class="w3-check" type="checkbox" name="news" id="news" checked> Yes, please.
+      </p>
 
-        <p>
-          <label for="options" title="Select an option">How did you find us?</label>
+      <p>
+        <label title="Select an option" for="options">How did you find us?</label>
+        <select class="w3-select" name="options" id="options">
+          <option value="" disabled selected>Choose your option</option>
+          <option value="Instagram">Instagram</option>
+          <option value="Google">Google</option>
+          <option value="Advertising">Advertising</option>
+          <option value="Others">Others</option>
+        </select>
+
+        <!-- <label for="options" title="Select an option">How did you find us?</label>
           <select name="options" id="options">
             <option value="1">Instagram</option>
             <option value="2">Google</option>
             <option value="3">Advertising</option>
             <option value="4">Facebook Adds</option>
             <option value="5">Others</option>
-          </select>
+          </select> -->
+      </p>
+      <fieldset>
+        <legend>Would you recommend our page?</legend>
+        <label title="Select an option">Yes<input class="w3-radio" type="radio" name="answer" checked></label>
+        <label title="Select an option">No <input class="w3-radio" type="radio" name="answer"></label>
         </p>
+      </fieldset>
+      <p>
+        <label for="message">Drop us a line</label>
+        <br>
+        <textarea name="message" id="message" placeholder="Your message"></textarea>
+      </p>
 
-        <h3>Did you find everything you need ?</h3>
-        <p>
-          <label title="Select an option">Yes<input type="radio" name="answer" checked></label>
-          <label title="Select an option">No <input type="radio" name="answer"></label>
-        </p>
-
-        <p>
-          <label for="message">Drop us a line</label>
-          <br>
-          <textarea name="message" id="message" placeholder="Your message"></textarea>
-        </p>
-
-        <input type="submit" value="Send an Email" name="submit" class="button">
-        <input type="reset" value="Reset" class="button">
-      </form>
-    </fieldset>
+      <input class="w3-button w3-indigo w3-hover-purple" type="submit" value="Send an Email" name="submit">
+      <input class="w3-button w3-indigo w3-hover-purple" type="reset" value="Reset">
+    </form>
   </section>
-  </main>
 
   <!-- Footer -->
   <footer class="footer">
