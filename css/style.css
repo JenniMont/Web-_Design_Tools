@@ -5,7 +5,7 @@
 
 html,
 body {
-  background-color: #f8f7ff;
+  background-color: #f3ecfa;
   color: #403e3e;
   font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
   font-weight: 300;
@@ -68,7 +68,7 @@ header {
 }
 
 header h1 {
-
+  text-shadow: 2px 2px 8px #d97dd7;
   text-align: left;
   word-spacing: 8px;
   letter-spacing: 4px;
@@ -96,7 +96,7 @@ header img {
 
 /*---------------Sections---------------------*/
 .sections {
-  background-color: #f2e7f7;
+  background-color: #f1d1f1;
   margin: 40px;
 }
 
@@ -121,14 +121,14 @@ dd {
 .footer {
   align-items: center;
   padding: 30px;
-  background-color: #d7c8f3;
+  background-color: #26004d;
   text-align: center;
 }
 
 .footer a:link {
   font-size: 100%;
   font-weight: 400;
-  color: #26004d;
+  color: #ebe3f9;
   text-decoration: none
 }
 
@@ -170,17 +170,7 @@ th {
   color: #fff;
 }
 
-/* 
-tr {
-  border-bottom: solid solid #6e36a6;
-  background-color: #e8e1f5;
-  color: #403e3e;
-}
 
-
-tbody tr:nth-child(even) {
-  background-color: #d4c7ed;
-} */
 
 tbody tr:hover {
   background-color: #be97fb;
@@ -270,12 +260,17 @@ section li a:hover {
 }
 
 /*---------------Gallery page---------------------*/
+
+figure {
+  margin-top: 30px;
+}
+
 figure a .gallery {
   width: 200px;
   height: 200px;
-  border: 3px solid rgba(74, 32, 86, 0.376);
+  border: 3px solid rgba(105, 192, 235, 0.376);
   box-shadow: 0 0 2px 1px #b8b3e9;
-  margin: auto;
+  margin-left: 30px;
 }
 
 figure figcaption {

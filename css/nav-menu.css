@@ -33,3 +33,7 @@
   background-color: #ab21c4;
   color: white;
 }
+
+.topnav a i {
+  margin-right: 5px;
+}
