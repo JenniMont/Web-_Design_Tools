@@ -177,6 +177,12 @@ tbody tr:hover {
 }
 
 /*---------------Contact Us---------------------*/
+.centrado {
+  width: 70%;
+  border: 3px solid rgba(105, 192, 235, 0.376);
+  margin: 20px auto;
+
+}
 
 .centerText {
   text-align: center;
